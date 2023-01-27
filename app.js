@@ -23,9 +23,9 @@ window.onload = function () {
 
   buttonReset.onclick = function () {
     clearInterval(Interval);
-    minutes = 00;
-    seconds = 00;
-    tens = 00;
+    minutes = "00";
+    seconds = "00";
+    tens = "00";
     appenTens.innerHTML = tens;
     appenSeconds.innerHTML = seconds;
     appenMinutes.innerHTML = minutes;
